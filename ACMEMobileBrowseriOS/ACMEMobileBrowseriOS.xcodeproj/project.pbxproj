@@ -16,6 +16,7 @@
 		B00FA6002808F1F30031221C /* ACMEMobileBrowseriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00FA5FF2808F1F30031221C /* ACMEMobileBrowseriOSTests.swift */; };
 		B00FA60A2808F1F30031221C /* ACMEMobileBrowseriOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00FA6092808F1F30031221C /* ACMEMobileBrowseriOSUITests.swift */; };
 		B00FA60C2808F1F30031221C /* ACMEMobileBrowseriOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00FA60B2808F1F30031221C /* ACMEMobileBrowseriOSUITestsLaunchTests.swift */; };
+		B0E96CAD2809B82B00FC3BB0 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E96CAC2809B82B00FC3BB0 /* Bookmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B00FA6052808F1F30031221C /* ACMEMobileBrowseriOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACMEMobileBrowseriOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00FA6092808F1F30031221C /* ACMEMobileBrowseriOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACMEMobileBrowseriOSUITests.swift; sourceTree = "<group>"; };
 		B00FA60B2808F1F30031221C /* ACMEMobileBrowseriOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACMEMobileBrowseriOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0E96CAC2809B82B00FC3BB0 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,9 @@
 		B00FA5E72808F1F20031221C /* ACMEMobileBrowseriOS */ = {
 			isa = PBXGroup;
 			children = (
+				B0E96CAB2809B7D400FC3BB0 /* Views */,
+				B0E96CAA2809B7C100FC3BB0 /* Models */,
+				B0E96CA92809B7B600FC3BB0 /* Controllers */,
 				B00FA5E82808F1F20031221C /* AppDelegate.swift */,
 				B00FA5EA2808F1F20031221C /* SceneDelegate.swift */,
 				B00FA5EC2808F1F20031221C /* ViewController.swift */,
@@ -125,6 +130,28 @@
 				B00FA60B2808F1F30031221C /* ACMEMobileBrowseriOSUITestsLaunchTests.swift */,
 			);
 			path = ACMEMobileBrowseriOSUITests;
+			sourceTree = "<group>";
+		};
+		B0E96CA92809B7B600FC3BB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B0E96CAA2809B7C100FC3BB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0E96CAC2809B82B00FC3BB0 /* Bookmark.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0E96CAB2809B7D400FC3BB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00FA5ED2808F1F20031221C /* ViewController.swift in Sources */,
+				B0E96CAD2809B82B00FC3BB0 /* Bookmark.swift in Sources */,
 				B00FA5E92808F1F20031221C /* AppDelegate.swift in Sources */,
 				B00FA5EB2808F1F20031221C /* SceneDelegate.swift in Sources */,
 			);
